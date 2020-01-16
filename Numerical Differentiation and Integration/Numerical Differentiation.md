@@ -1,6 +1,6 @@
 Derivation of function *f(x)* in range [a,b] at *x* is:
 
-<img src="http://bit.ly/2FV91Wq" align="center" border="0" alt=" f' (x) =  \lim_{h \rightarrow 0} \frac{f(x+h) - f(x)}{h}" width="215" height="43" />
+![](https://www.latex4technics.com/l4ttemp/iixw9s.png?1579142485168)
 
 If the analytic equation of *f(x)* is known, then derivation of *f(x)* can be found most of the time, yet it could be challenging. As a experimental physics undergrad, most of the time our equations are given at precise values at lab, so we need those numerical differentiations.
 
@@ -40,7 +40,7 @@ So, how do we use these at physics. Let's jump in another example: ( You can fin
 
 There is a string with applied force of F=-kx. Calculate the travel.
 
-To keep the program simple, take m=k=1 and <img src="http://bit.ly/3ae50KU" align="center" border="0" alt="T = 2 \Pi  \sqrt{m/k}  \approx 6.28s" width="182" height="25" />
+To keep the program simple, take m=k=1 and <img src="http://bit.ly/3ae50KU" align="center" border="0" alt="T = 2 \Pi  \sqrt{m/k}  \approx 6.28s" width="258" height="43" />
 
 ---
 
