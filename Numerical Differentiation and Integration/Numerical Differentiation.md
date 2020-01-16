@@ -7,21 +7,21 @@ If the analytic equation of *f(x)* is known, then derivation of *f(x)* can be fo
 Let's say *f(x)* is ordered with equal *h* intervals of ![](https://www.latex4technics.com/l4ttemp/iixw9s.png?1579142603011) :
 
 
-![](https://www.latex4technics.com/l4ttemp/iixw9s.png?1579142730461) and ![](https://www.latex4technics.com/l4ttemp/iixw9s.png?1579142784929)
+![](https://www.latex4technics.com/l4ttemp/iixw9s.png?1579142730461)   and   ![](https://www.latex4technics.com/l4ttemp/iixw9s.png?1579142784929)
 
 Let's do **Taylor Expansion** near xi:
 
-<img src="http://bit.ly/2Tso55P" align="center" border="0" alt=" f' ( x_{i} ) = \frac{f( x_{i}+h) - f( x_{i})}{h} +  \mathcal{O}(h)" width="258" height="43" /> + O(h) (Forward Difference)
+![](https://www.latex4technics.com/l4ttemp/iixw9s.png?1579142888702) (Forward Difference)
 
 Hence by using f(xi-h) we can find backward difference also.
 
-<img src="http://bit.ly/2Tso55P" align="center" border="0" alt=" f' ( x_{i} ) = \frac{f( x_{i}) - f( x_{i}-h)}{h} +  \mathcal{O}(h)$" width="258" height="43" />+ 0(h) (Backward Difference)
+![](https://www.latex4technics.com/l4ttemp/iixw9s.png?1579142949097) (Backward Difference)
 
 The error ratio is at h. Can we get a better error ratio? Hell yeah!
 
 If we subtract forward and backward we get:
 
-<img src="http://bit.ly/2Tso55P" align="center" border="0" alt=" f' ( x_{i} ) = \frac{f( x_{i}+h) - f( x_{i}-h)  }{2h} +  {\mathcal{O}(h^2)}" width="297" height="43" /> + O(h^2) (Central Difference)
+![](https://www.latex4technics.com/l4ttemp/iixw9s.png?1579142994321) (Central Difference)
 
 As you can see h^2 error ratio is getting smaller by power of 2 ratio when h getting smaller.
 
@@ -29,7 +29,7 @@ This method can be improved by more xi points.
 
 Let's give an example: ***You can find this example code at comparison.py***
 
-<img src="http://bit.ly/30ql9Zd" align="center" border="0" alt="f(x) = cot(x) ,  f' (x) =  {-1}  \backslash  {sin^2(x)}" width="272" height="22" />
+![](https://www.latex4technics.com/l4ttemp/iixw9s.png?1579143027895)
 
 We will find the differentiation of f(x) at x=1,2,3 and h=0.00001
 
@@ -40,7 +40,7 @@ So, how do we use these at physics. Let's jump in another example: ( You can fin
 
 There is a string with applied force of F=-kx. Calculate the travel.
 
-To keep the program simple, take m=k=1 and <img src="http://bit.ly/3ae50KU" align="center" border="0" alt="T = 2 \Pi  \sqrt{m/k}  \approx 6.28s" width="258" height="43" />
+To keep the program simple, take m=k=1 and ![](https://www.latex4technics.com/l4ttemp/iixw9s.png?1579143078263)
 
 ---
 
