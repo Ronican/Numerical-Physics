@@ -4,10 +4,10 @@ Derivation of function *f(x)* in range [a,b] at *x* is:
 
 If the analytic equation of *f(x)* is known, then derivation of *f(x)* can be found most of the time, yet it could be challenging. As a experimental physics undergrad, most of the time our equations are given at precise values at lab, so we need those numerical differentiations.
 
-Let's say *f(x)* is ordered with equal *h* intervals of <img src="http://bit.ly/2RrdWEa" align="center" border="0" alt=" x_{0} ,  x_{1} , x_{2},  x_{3} ... x_{N} " width="146" height="15" /> :
+Let's say *f(x)* is ordered with equal *h* intervals of ![](https://www.latex4technics.com/l4ttemp/iixw9s.png?1579142603011) :
 
 
-<img src="http://bit.ly/2FTGcKg" align="center" border="0" alt=" {x_{i} =  x_{0} +   ih}" width="97" height="18" /> and <img src="http://bit.ly/2Nug38S" align="center" border="0" alt="  { f_{i} = f( x_{i} ) " width="74" height="19" />
+![](https://www.latex4technics.com/l4ttemp/iixw9s.png?1579142730461) and ![](https://www.latex4technics.com/l4ttemp/iixw9s.png?1579142784929)
 
 Let's do **Taylor Expansion** near xi:
 
