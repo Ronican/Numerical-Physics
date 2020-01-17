@@ -6,7 +6,7 @@ We will cover many aspects of physics phenomena with simulations and analysis. W
 
 First I want to do some **numerical derivatives** and **integrations** due to a good start and for math-lack freshmans. Of course it will cover **Simpson** and **Trapez** and an application. Probably a **simple harmonic oscillator**.
 
-After that we can focus on **finding some roots with iteration techniques**. 
+After that we can focus on **finding some roots with iteration techniques**.
 
 Following that **Differential Equations with couple of Euler and Runge Kutta methods** will come to our aid.
 
@@ -17,3 +17,7 @@ At the end, I do enjoy **fractals and attractors** so much, I hope I will add so
 
 Please do not hesitate to keep in touch, it will be an honour to get feedbacks, cooperation offers, wishes and advices.
 
+---
+All of the equations are written in the [LaTeX Equation Editor](https://www.latex4technics.com/) and copied the image url.
+
+Also all of the illustrations are draw by me with iPad Pro with Apple Pencil on the ProCreate and Notability Apps.
